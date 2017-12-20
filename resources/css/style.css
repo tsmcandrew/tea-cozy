@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: "Helvetica", serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  margin-top: -69px;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 69px;
+}
+
+.Mission {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 700px;
+  width: 1200px;
+  padding: 0 auto;
+  justify-content: center;
+  align-content: center;
+  background-image: url("../images/img-mission-background.jpg")
+}
+
+.text {
+  background-color: black;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.TeaMonth {
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto;
+  width: 1000px;
+  height: 560px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-content: first baseline;
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.grid_item {
+  padding: 0px 15px;
+  display: inline-block;
+}
+
+.grid_item p {
+  margin-top: 10px;
+}
+
+.products .grid_item .grid_image img {
+  height: 200px;
+  width: 300px;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  margin: 0px auto;
+  padding: 0 auto;
+}
+
+.locations div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.locations_box .box {
+  display: inline-block;
+  background-color: black;
+  width: 300px;
+  margin: 0px 20px;
+}
+
+footer .copyright p {
+  text-align: left;
+  padding-left: 20px;
+}
